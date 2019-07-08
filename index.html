@@ -1,205 +1,411 @@
-<!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-<html lang="en">
-
-<head>
+﻿<!DOCTYPE html>
+<html lang="ja">
+<!-- Top page -->
+  <head>
+    <script src="https://use.typekit.net/ugm5jge.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A portfolio template that uses Material Design Lite.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>MDL-Static Website</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-
-<body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-            <div class="mdl-layout__header-row portfolio-logo-row">
-                <span class="mdl-layout__title">
-                    <div class="portfolio-logo"></div>
-                    <span class="mdl-layout__title">Simple portfolio website</span>
-                </span>
-            </div>
-            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                    <a class="mdl-navigation__link" href="blog.html">Blog</a>
-                    <a class="mdl-navigation__link" href="about.html">About</a>
-                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
-                </nav>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                <a class="mdl-navigation__link" href="blog.html">Blog</a>
-                <a class="mdl-navigation__link" href="about.html">About</a>
-                <a class="mdl-navigation__link" href="contact.html">Contact</a>
-            </nav>
+    <meta name="description" content="東京大学の学生を中心に結成された有志団体「UTaTan&eacute;」による、第92回五月祭の展示企画「「つくる」ってなんだろう？ &sim;How Do YOU Create?&sim;」のホームページです。">
+    <meta name="keywords" content="五月祭,駒場祭,Techno Edge,UTaTane">
+    <title>「つくる」ってなんだろう？ | UTaTan&eacute;</title>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/brands.js" integrity="sha384-qJKAzpOXfvmSjzbmsEtlYziSrpVjh5ROPNqb8UZ60myWy7rjTObnarseSKotmJIx" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/fontawesome.js" integrity="sha384-2IUdwouOFWauLdwTuAyHeMMRFfeyy4vqYNjodih+28v2ReC+8j+sLF9cK339k5hY" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/utatane.css">
+    <link rel="stylesheet" href="./css/utatane_index.css">
+    <script type="text/javascript" src="./javascript/utatane.js"></script>
+    <script type="text/javascript" src="./javascript/utatane_index.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      <!--
+      header_index();
+      //-->
+    </script>
+    <div id="header_index_scroll"></div>
+    <div id="menubutton">
+      <div id="menubutton_wrap" onclick="menulist_index_appear()">
+        <div id="menubutton_icon">
+          <p>
+            <i class="fas fa-bars"></i>
+          </p>
         </div>
-        <main class="mdl-layout__content">
-            <div class="mdl-grid portfolio-max-width">
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work01.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Blog template</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work07.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Sunt nulla</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work02.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Android.com website</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work03.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Dashboard template</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work04.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Text-heavy website</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work08.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Ex officia laborum</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work05.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Stand-alone article</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work06.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">MDL website</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work09.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Consequat ut quis</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <footer class="mdl-mini-footer">
-                <div class="mdl-mini-footer__left-section">
-                    <div class="mdl-logo">Simple portfolio website</div>
-                </div>
-                <div class="mdl-mini-footer__right-section">
-                    <ul class="mdl-mini-footer__link-list">
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Privacy & Terms</a></li>
-                    </ul>
-                </div>
-            </footer>
-        </main>
+      </div>
     </div>
-    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-</body>
-
+    <div id="closebutton"></div>
+    <div id="menulist"></div>
+    <div id="applink">
+      <div class="app_logo">
+        <a href="http://app.mayfes2018-utatane.com/" target="_blank">
+          <img src="./pictures/app_logo.png" alt="Share Future">
+        </a>
+      </div>
+    </div>
+    <article>
+      <div class="index_section" id="home">
+        <div class="opacity">
+          <div class="top"></div>
+          <section>
+            <div class="container">
+              <div class="row section_title_home">
+                <div class="col-xs-12 home_title" id="kawaru">
+                  <div class="title">
+                    <h1>
+                      <span style="font-size: 0.8em;">第92回五月祭出展企画</span><br>
+                      「つくる」ってなんだろう？
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="home_icon_sp">
+                <div class="row section_contents_home">
+                  <div class="col-xs-6">
+                    <a href="color.html">
+                      <img src="./pictures/color.png" alt="色 / color">
+                    </a>
+                  </div>
+                  <div class="col-xs-6">
+                    <a href="story.html">
+                      <img src="./pictures/story.png" alt="物語 / story">
+                    </a>
+                  </div>
+                </div>
+                <div class="row section_contents_home">
+                  <div class="col-xs-6">
+                    <a href="self.html">
+                      <img src="./pictures/self.png" alt="一人 / self">
+                    </a>
+                  </div>
+                  <div class="col-xs-6">
+                    <a href="question.html">
+                      <img src="./pictures/idea_sheet.png" alt="問い / idea sheet">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="row section_contents_home home_icon">
+                <div class="col-xs-6 col-md-3">
+                  <a href="color.html">
+                    <img src="./pictures/color.png" alt="色 / color">
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="story.html">
+                    <img src="./pictures/story.png" alt="物語 / story">
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="self.html">
+                    <img src="./pictures/self.png" alt="一人 / self">
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="question.html">
+                    <img src="./pictures/idea_sheet.png" alt="問い / idea sheet">
+                  </a>
+                </div>
+              </div>
+              <div class="row section_subtitle_home">
+                <div class="col-xs-12 home_subtitle" id="mirai">
+                  <h3>
+                    &sim;How Do YOU Create?&sim;
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="section" id="preface">
+        <div class="opacity">
+          <div class="top"></div>
+          <section>
+            <div class="container">
+              <div class="row section_title">
+                <div class="col-xs-12">
+                  <h2>
+                    Preface
+                  </h2>
+                </div>
+              </div>
+              <div class="row section_contents">
+                <div class="col-xs-12">
+                  <div class="section_contents_description">
+                    <p>
+                      <strong>「つくる」ってなんだろう？ &sim;How Do YOU Create?&sim;</strong>は、「20年後の未来の生活を描く」ことをテーマに、学校、公園、家など身近な場所を題材として、その未来像を展示を通じてお客様に実感していただく体験型の企画です。
+                      さらに自作のアプリにより、お客様ご自身にも「未来の生活がどうなるのか？」を考えていただく場を設けております。
+                      この企画をきっかけに未来に思いを馳せてみませんか？
+                    </p>
+                    <p style="text-align: right;">
+                      UTaTan&eacute; 代表&emsp;久保田 祐貴<br>
+                      副代表&emsp;山下 萌莉
+                    </p>
+                    <p style="text-align: center;">
+                      <a href="./docs/2019-MF-Concept.pdf" target="_blank">【パンフレット (PDF)】</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="index_section" id="concept">
+        <div class="opacity">
+          <div class="top"></div>
+          <section>
+            <div class="container">
+              <div class="row section_title">
+                <div class="col-xs-12">
+                  <h2>Concept</h2>
+                </div>
+              </div>
+              <div class="row section_contents">
+                <div class="col-xs-12">
+                  <div class="concept_list">
+                    <ol type="I">
+                      <li>
+                        「つくる」が身近に感じられる、リアリティあふれる体験型企画
+                      </li>
+                      <li>
+                        自由な発想を忘れない大学院生ならではの、先進的な技術の活用
+                      </li>
+                      <li>
+                        統一したコンセプトが生み出す、アーティスティックな空間設計
+                      </li>
+                      <li>
+                        詳細な文献や研究の調査に基づく、地に足のついた展示デザイン
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="concept_list_sp">
+                    <ol type="I">
+                      <li>
+                        「つくる」が身近に感じられる、<br>リアリティあふれる体験型企画
+                      </li>
+                      <li>
+                        自由な発想を忘れない大学院生<br>ならではの、先進的な技術の活用
+                      </li>
+                      <li>
+                        統一したコンセプトが生み出す、<br>アーティスティックな空間設計
+                      </li>
+                      <li>
+                        詳細な文献や研究の調査に基づく、<br>地に足のついた展示デザイン
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="index_section" id="movie">
+        <div class="opacity">
+          <div class="top"></div>
+          <section>
+            <div class="container">
+              <div class="row section_title">
+                <div class="col-xs-12">
+                  <h2>Movie</h2>
+                </div>
+              </div>
+              <div class="row section_contents">
+                <div class="col-xs-12 section_contents_description">
+                  <div class="movie">
+                    <iframe src="https://www.youtube.com/embed/Dv7_INUTYjo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                  <p style="text-align: center;">
+                    <span class="link_name">
+                      <a href="./movies.html" target="_blank">【YouTube Channel はこちら】</a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="index_section" id="about">
+        <div class="opacity">
+          <div class="top"></div>
+          <section>
+            <div class="container">
+              <div class="row section_title">
+                <div class="col-xs-12">
+                  <h2>About</h2>
+                </div>
+              </div>
+              <div class="row section_contents">
+                <div class="col-xs-12 section_contents_description">
+                  <p>
+                    <strong>UTaTan&eacute;</strong>（うたたね）は，昨年五月祭より「イベントデザインを通した、生活知と専門知の対話・交流を目指して」を理念に掲げ，イベント運営とプロダクト開発を行っております．
+                    昨年は「20年後の未来の生活を描く」ことをテーマに，双方向性の高い作品や展示・ゲームなどを作り，好評を博すことが叶いました．
+                    今年は「つくる」ことを問い直すという，より学際的なテーマに挑戦し，質の高い展示をお届けすることを目指しています．
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="index_section" id="access">
+        <div class="opacity">
+          <div class="top"></div>
+          <section>
+            <div class="container">
+              <div class="row section_title">
+                <div class="col-xs-12">
+                  <h2>Access</h2>
+                </div>
+              </div>
+              <div class="row section_contents_access">
+                <div class="col-xs-6 col-md-7 col-lg-5">
+                  <access>
+                    <table style="text-align: left">
+                      <tr>
+                        <th>日時&nbsp;</th>
+                        <td>
+                        2019年 5月 18日(<span style="color: blue;">土</span>)
+                        ～ 19日(<span style="color: red;">日</span>)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>9時 ～ 18時</td>
+                      </tr>
+                      <tr><td>&nbsp;</td><td></td></tr>
+                      <tr>
+                        <th>会場&nbsp;</th>
+                        <td>東京大学 本郷キャンパス</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>教育学部棟 3階 356演習室</td>
+                      </tr>
+                    </table>
+                  </access>
+                </div>
+                <div class="col-xs-6 col-md-5 col-lg-7">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.9050222655219!2d139.7604848292248!3d35.7109654987617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c3a9a1b4501%3A0x462b9df9338539af!2z5p2x5Lqs5aSn5a2m5pWZ6IKy5a2m6YOo5qOf!5e0!3m2!1sja!2sjp!4v1558155771678!5m2!1sja!2sjp" frameborder="0" style="border:0" allowfullscreen align="left"></iframe>
+                </div>
+              </div>
+              <div class="row section_contents_access_sp">
+                <div class="col-xs-12">
+                  <access>
+                    <table style="text-align: left">
+                      <tr>
+                        <th>日時&nbsp;</th>
+                        <td>
+                        2019年 5月 18日(<span style="color: blue;">土</span>)
+                        ～ 19日(<span style="color: red;">日</span>)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>9時 ～ 18時</td>
+                      </tr>
+                      <tr>
+                        <th>会場&nbsp;</th>
+                        <td>東京大学 本郷キャンパス</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>教育学部棟 3階 356演習室</td>
+                      </tr>
+                    </table>
+                  </access>
+                </div>
+              </div>
+              <div class="row section_contents_access_sp">
+                <div class="col-xs-12">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.9050222655219!2d139.7604848292248!3d35.7109654987617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c3a9a1b4501%3A0x462b9df9338539af!2z5p2x5Lqs5aSn5a2m5pWZ6IKy5a2m6YOo5qOf!5e0!3m2!1sja!2sjp!4v1558155771678!5m2!1sja!2sjp" frameborder="0" style="border:0" allowfullscreen align="left"></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="bottom"></div>
+        </div>
+      </div>
+    </article>
+    <aside>
+      <div id="links">
+        <div class="top"></div>
+        <div class="section_title">
+          <h2>Links</h2>
+        </div>
+        <div class="link_list">
+          <table>
+            <tr>
+              <td>
+                <span class="link_name">
+                  <a href="https://www.gogatsusai.jp/" target="_blank">
+                    五月祭の公式ウェブサイト
+                  </a>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="link_name">
+                  <a href="KomabaFes2018.html">
+                    【過去の企画 &mdash; 第69回駒場祭のページはこちら】
+                  </a>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!--
+        <div class="link_list">
+          <h3>協賛企業</h3>
+          <table>
+            <tr>
+              <td>
+                <span class="link_name">
+                  <a href="https://goo.gl/7zCjN3" target="_blank">
+                  </a>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        -->
+        <!--
+        <div class="link_list">
+          <h3>協賛研究室</h3>
+          <table>
+            <tr>
+              <td>
+                <span class="link_name">
+                  <a href="" target="_blank"></a>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        -->
+        <!--<div class="bottom"></div>-->
+      </div>
+    </aside>
+    <script type="text/javascript">
+    <!--
+      footer();
+    //-->
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh3U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>

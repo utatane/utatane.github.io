@@ -1,0 +1,349 @@
+/* utatane.css */
+
+body {
+  margin: 0;
+  color: #2C4849;
+  /*width: 1280px;*/
+  font-family: "source-sans-pro", "Helvetica", "source-han-sans-japanese", "メイリオ", "游ゴシック", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* article {} */
+
+div {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+section {
+  margin: auto;
+  padding: auto;
+  line-height: 2;
+}
+
+a {text-decoration: none;}
+
+h1, h2, h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+header {
+  background: #98BF9A;
+  border-bottom: #994E62 solid 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #98BF9A;
+  border-top: #994E62 solid 5px;
+  padding-top: 20px;
+}
+
+aside {
+  text-align: center;
+  background-color: #F3FFF6;
+  padding-bottom: 10px;
+}
+
+footer p {clear: both;}
+
+a:link { color: #2C4849;}
+a:visited { color: #2C4849;}
+a:hover {
+  color: #994E62;
+  text-decoration: none;
+}
+a:active { color: #994E62;}
+
+.header_scroll_pc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #98BF9A;
+  border-bottom: #994E62 solid 5px;
+  width: 100%;
+  margin: 0;
+}
+
+.section {
+  background-position: center center;
+  background-size: cover;
+}
+
+.opacity {background-color: rgba(243, 255, 246, 0.75);}
+
+.top {
+  background: url(../pictures/stripe_top.png);
+  background-repeat: repeat-x;
+  background-position: top left;
+  background-size: 160px auto;
+  height: 40px;
+}
+
+.bottom {
+  background: url(../pictures/stripe_bottom.png);
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-size: 160px auto;
+  height: 40px;
+}
+
+.next {
+  position: absolute;
+  text-align: right;
+}
+
+.next {display: none;}
+
+.nav {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  word-spacing: 1em;
+}
+
+.title {
+  font-family: "source-sans-pro", "Helvetica", "source-han-sans-japanese", "メイリオ", "游ゴシック", sans-serif;
+  font-weight: normal;
+}
+
+.section_contents_description {padding-bottom: 20px;}
+
+.utatane_logo img {
+  width: 180px;
+    height: 45px;
+}
+
+.section_contents_description p {
+  text-align: left;
+  margin: auto;
+  width: 80%;
+}
+
+.app_logo img {
+  background-color: #F3FFF6;
+}
+
+#header_scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+#snslinks {font-size: 24pt;}
+
+/* 他ページ */
+/* 暫定 */
+.title img {
+  height: 160px;
+  width: auto;
+}
+
+.section_title img {
+  width: 60%;
+  height: auto;
+}
+
+.section_subtitle {
+  font-size: 1.5em;
+}
+
+.movies iframe {
+  width: 80vw;
+  height: 45vw;
+}
+
+/* Share Future */
+#livingroom_1 img {width: 50%; height: auto;}
+#livingroom_1 p {text-align: center;}
+
+#menubutton_wrap, #closebutton_wrap{
+  z-index: 3;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #ddd;
+  border-radius: 50%;
+  border: solid 2px #aaa;
+}
+
+#menubutton_wrap:hover, #menubutton_wrap:active, #closebutton_wrap:hover, #closebutton_wrap:active {color: #994E62;}
+
+#menubutton_icon, #closebutton_icon {
+  position: relative;
+  top: 8px;
+  left: 0px;
+  font-size: 16pt;
+}
+
+#menulist{
+  z-index: 3;
+  position: fixed;
+  top: 80px;
+  right: 10px;
+  background: #ddd;
+  font-size: 16pt;
+}
+
+#menulist td {border: solid 2px #aaa;}
+
+#menulist a {
+  display: block;
+  width: 100%;
+  padding: 0 4px;
+}
+
+#applink img {
+  z-index: 1;
+  position: fixed;
+  background-color: #FFFFBE;
+  border: solid 2px #994E62;
+}
+
+.photos4 img {
+  width: 200px;
+  padding: 10px;
+}
+
+/* width */
+/* 544, 768, 992, 1200 */
+
+@media screen and (min-width:0px){
+  body{font-size: 11pt;}
+  .utatane_icon img {
+    width: 100px;
+    height: 100px;
+  }
+  footer {padding-bottom: 50px;}
+  .app_logo img {
+    padding: 5px;
+    height: 50px;
+  }
+  .title {font-size: 0.6em;}
+  .section_title {padding-top: 10%;}
+  .section_contents {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .next {
+    font-size: 24px;
+    right: 10px;
+    bottom: 0;
+  }
+  #applink img {
+    bottom: 10px;
+    right: 10px;
+  }
+  .movie iframe {
+    width: 80vw;
+    height: 45vw;
+  }
+  .photo1 img {
+    width: 200px;
+    margin: 20px;
+  }
+  .photos4 img {
+    width: 200px;
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width:544px){
+  body{font-size: 14pt;}
+  .title {font-size: 0.8em;}
+  .section_title {padding-top: 5%;}
+  .section_contents {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .next {
+    font-size: 36px;
+    right: 20px;
+  }
+  .photo1 img {
+    width: 400px;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .header_pc, .header_scroll_pc {display: none;}
+}
+
+@media screen and (min-width:768px){
+  body{font-size: 16pt;}
+  footer {padding-bottom: 70px;}
+  .header_sp, .break_sp, #menubutton, #closebutton, #menulist {display: none;}
+  .utatane_icon img {
+    width: 170px;
+    height: 170px;
+  }
+  .app_logo img {
+    padding: 6px;
+    height: 60px;
+  }
+  .next {
+    font-size: 48px;
+    right: 40px;
+  }
+  #applink img {
+    bottom: 20px;
+    right: 20px;
+  }
+  .movie iframe {
+    width: 48vw;
+    height: 27vw;
+  }
+  .photo1 img {
+    width: 600px;
+    margin: 20px;
+  }
+  .photos4 img {
+    width: 300px;
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width:992px){
+  footer {padding-bottom: 20px;}
+  .photo1 img {
+    width: 800px;
+    margin: 20px;
+  }
+  .photos4 img {
+    width: 400px;
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width:1200px){
+  .app_logo img {
+    padding: 8px;
+    height: 80px;
+  }
+}
