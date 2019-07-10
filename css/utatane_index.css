@@ -43,20 +43,22 @@ h2 {font-family: Times, serif;}
   width: 100%;
 }
 
-#home {background-image: url(../pictures/back01.jpg);}
-
-#preface {background-image: url(../pictures/earth.png);}
-
-#concept {background-image: url(../pictures/back02.jpg);}
+#top {background-image: url(../pictures/top.jpg);}
 
 #about {background-image: url(../pictures/back03.jpg);}
 
-#access {
+
+/*#preface {background-image: url(../pictures/earth.png);}*/
+
+#concept {background-image: url(../pictures/back02.jpg);}
+#news {background-image: url(../pictures/back02.jpg);}
+#works {background-image: url(../pictures/back02.jpg);}
+#contact {
   background-color: #F3FFF6;
-  background-image: url(../pictures/back04.png);
+  background-image: url(../pictures/contact.jpg);
 }
 
-#access td {height: 1em;}
+#contact td {height: 1em;}
 
 #header_index_scroll {
   position: fixed;
@@ -70,16 +72,16 @@ h2 {font-family: Times, serif;}
 
 @media screen and (min-width:0px){
   h1 {font-size: 2.5em;}
-  .section_title_home {padding-top: 5%;}
-  .section_contents_home {
+  .section_title_top {padding-top: 5%;}
+  .section_contents_top {
     padding-top: 0;
     padding-bottom: 5%;
   }
-  .section_subtitle_home {padding-top: 0;}
-  .section_contents_access_sp {padding-top: 5%;}
-  .section_title_home img {height: 50px;}
-  .section_subtitle_home img {height: 40px;}
-  .home_icon_sp img {
+  .section_subtitle_top {padding-top: 0;}
+  .section_contents_contact_sp {padding-top: 5%;}
+  .section_title_top img {height: 50px;}
+  .section_subtitle_top img {height: 40px;}
+  .top_icon_sp img {
     width: 120px;
     height: 120px;
   }
@@ -88,68 +90,68 @@ h2 {font-family: Times, serif;}
     text-align: left;
     width: 300px;
   }
-  #access iframe {width: 95%;}
+  #contact iframe {width: 95%;}
 }
 
 @media screen and (min-width:350px){
-  .section_title_home img {height: 60px;}
-  .section_subtitle_home img {height: 45px;}
+  .section_title_top img {height: 60px;}
+  .section_subtitle_top img {height: 45px;}
 }
 
 @media screen and (max-width:543px){
 }
 
 @media screen and (min-width:544px){
-  .section_title_home {padding-top: 5%;}
-  .section_subtitle_home {padding-top: 0;}
-  .section_title_home img {height: 80px;}
-  .section_subtitle_home img {height: 60px;}
+  .section_title_top {padding-top: 5%;}
+  .section_subtitle_top {padding-top: 0;}
+  .section_title_top img {height: 80px;}
+  .section_subtitle_top img {height: 60px;}
   .concept_list_sp {width: 350px;}
-  .section_contents_access_sp {padding-top: 0;}
-  #access iframe {width: 100%;}
+  .section_contents_contact_sp {padding-top: 0;}
+  #contact iframe {width: 100%;}
   #menulist_index {display: none;}
 }
 
 @media screen and (max-width:767px){
-  .home_icon {display: none;}
+  .top_icon {display: none;}
   .concept_list {display: none;}
-  .section_contents_access {display: none;}
+  .section_contents_contact {display: none;}
 }
 
 @media screen and (min-width:768px){
   .index_nav {word-spacing: 0.5em;}
-  .section_title_home {padding-top: 2%;}
-  .section_title_home img {
+  .section_title_top {padding-top: 2%;}
+  .section_title_top img {
     position: relative;
     top: 10px;
   }
-  .section_contents_home {
+  .section_contents_top {
     padding-top: 0;
     padding-bottom: 2%;
   }
-  .section_subtitle_home {padding-top: 3%;}
-  .section_title_home img {height: 120px;}
-  .section_subtitle_home img {height: 80px;}
-  .home_icon img {
+  .section_subtitle_top {padding-top: 3%;}
+  .section_title_top img {height: 120px;}
+  .section_subtitle_top img {height: 80px;}
+  .top_icon img {
     width: 160px;
     height: 160px;
   }
-  .home_icon_sp {display: none;}
+  .top_icon_sp {display: none;}
   .concept_list {width: 680px;}
   .concept_list_sp {display: none;}
-  .section_contents_access {padding-top: 5%;}
-  .section_contents_access_sp {display: none;}
-  #access iframe {width: 100%;}
+  .section_contents_contact {padding-top: 5%;}
+  .section_contents_contact_sp {display: none;}
+  #contact iframe {width: 100%;}
 }
 
 @media screen and (min-width:992px){
   /*h1 {font-size: 3em;}*/
   .index_nav {word-spacing: 1em;}
-  #access iframe {width: 80%;}
+  #contact iframe {width: 80%;}
 }
 
 @media screen and (min-width:1200px){
-  #access iframe {width: 80%;}
+  #contact iframe {width: 80%;}
 }
 
 /* height */
@@ -158,7 +160,7 @@ h2 {font-family: Times, serif;}
     position: relative;
     height: 520px;
   }
-  #access iframe {height: 240px;}
+  #contact iframe {height: 240px;}
 }
 
 @media screen and (min-height:600px){
@@ -167,5 +169,5 @@ h2 {font-family: Times, serif;}
     height: 100%;
     height: calc(100vh - 80px);
   }
-  #access iframe {height: calc(100vh - 360px);}
+  #contact iframe {height: calc(100vh - 360px);}
 }

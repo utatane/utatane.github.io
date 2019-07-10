@@ -97,7 +97,7 @@ a:active { color: #994E62;}
   background: url(../pictures/stripe_top.png);
   background-repeat: repeat-x;
   background-position: top left;
-  background-size: 160px auto;
+  background-size: 150px auto;
   height: 40px;
 }
 
@@ -306,6 +306,10 @@ a:active { color: #994E62;}
   .app_logo img {
     padding: 6px;
     height: 60px;
+  }
+  .top img {
+    width: 600px;
+    margin: 20px;
   }
   .next {
     font-size: 48px;

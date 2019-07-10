@@ -18,7 +18,7 @@ function header_scroll(len, width)
         header_scroll += '<div class="container">';
             header_scroll += '<div class="row header_scroll_pc">';
                 header_scroll += '<div class="col-xs-4 utatane_logo"><a href="index.html"><img src="./pictures/UTaTane_icon_moji.png" alt="UTaTane"></a></div>';
-                header_scroll += '<div class="col-xs-8 nav"><div><a href="color.html">Color</a> | <a href="story.html">Story</a> | <a href="self.html">Self</a> | <span style="word-spacing: normal;"><a href="question.html">Idea&nbsp;Sheet</a></span></div></div>';
+                //header_scroll += '<div class="col-xs-8 nav"><div><a href="color.html">Color</a> | <a href="story.html">Story</a> | <a href="self.html">Self</a> | <span style="word-spacing: normal;"><a href="question.html">Idea&nbsp;Sheet</a></span></div></div>';
                 // スペースのために <div>...</div> を余計に入れている
             header_scroll += '</div>';
         header_scroll += '</div>';
@@ -48,7 +48,7 @@ function header() {
 
                 html += '<div class="row header_pc">';
                     html += '<div class="col-xs-4 utatane_icon"><a href="index.html"><img src="./pictures/UTaTane_icon.png" alt="UTaTane"></a></div>';
-                    html += '<div class="col-xs-8 nav"><nav><a href="color.html">Color</a> | <a href="story.html">Story</a> | <a href="self.html">Self</a> | <span style="word-spacing: normal;"><a href="question.html">Idea&nbsp;Sheet</a></span></nav></div>';
+                    //html += '<div class="col-xs-8 nav"><nav><a href="color.html">Color</a> | <a href="story.html">Story</a> | <a href="self.html">Self</a> | <span style="word-spacing: normal;"><a href="question.html">Idea&nbsp;Sheet</a></span></nav></div>';
                 html += '</div>'; // header_pc
 
             html += '</div>';
@@ -70,7 +70,7 @@ function footer() {
                     html += '<div class="col-xs-6" style="margin-left: 1em;"><a target="_blank" href="https://www.facebook.com/UTaTan%C3%A9-941362419351686/"><i class="fab fa-facebook"></i></a></div>';
                 html += '</div>';
             html += '</div>';
-            html += '<p><small>Copyright &copy; 2018 UTaTan&eacute;. All rights reserved.</small></p>';
+            html += '<p><small>Copyright &copy; 2019 UTaTan&eacute;. All rights reserved.</small></p>';
         html += '</div>';
     html += '</footer>';
 
