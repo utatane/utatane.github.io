@@ -45,13 +45,14 @@ h2 {font-family: Times, serif;}
 
 #top {background-image: url(../pictures/top.jpg);}
 
-#about {background-image: url(../pictures/back03.jpg);}
+/*#about {background-image: url(../pictures/back03.jpg);}*/
 
 
 /*#preface {background-image: url(../pictures/earth.png);}*/
 
 #concept {background-image: url(../pictures/back02.jpg);}
 #news {background-image: url(../pictures/back02.jpg);}
+/*#theme {background-image: url(../pictures/back02.jpg);}*/
 #works {background-image: url(../pictures/back02.jpg);}
 #contact {
   background-color: #F3FFF6;
