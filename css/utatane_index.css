@@ -78,6 +78,10 @@ h2 {font-family: Times, serif;}
   float: left;
   list-style: none;
 }
+#grid ul li img{
+  width: 180px;
+  height: 180px;
+}
 /* width */
 /* 544, 768, 992, 1200 */
 

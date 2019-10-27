@@ -246,10 +246,10 @@ a:active { color: #994E62;}
     height: 50px;
   }
   .title {font-size: 0.6em;}
-  .section_title {padding-top: 10%;}
+  .section_title {padding-top: 5%;}
   .section_contents {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
   .next {
     font-size: 24px;
@@ -277,10 +277,10 @@ a:active { color: #994E62;}
 @media screen and (min-width:544px){
   body{font-size: 14pt;}
   .title {font-size: 0.8em;}
-  .section_title {padding-top: 5%;}
+  .section_title {padding-top: 2.5%;}
   .section_contents {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
   .next {
     font-size: 36px;
