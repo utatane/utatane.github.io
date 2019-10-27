@@ -68,6 +68,16 @@ h2 {font-family: Times, serif;}
   z-index: 3;
 }
 
+#grid {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#grid ul li {
+  margin: 10px;
+  float: left;
+  list-style: none;
+}
 /* width */
 /* 544, 768, 992, 1200 */
 

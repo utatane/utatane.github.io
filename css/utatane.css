@@ -20,7 +20,7 @@ div {
 section {
   margin: auto;
   padding: auto;
-  line-height: 2;
+  line-height: 1.8em;
 }
 
 a {text-decoration: none;}
@@ -133,13 +133,14 @@ a:active { color: #994E62;}
 
 .utatane_logo img {
   width: 180px;
-    height: 45px;
+
+  height: 45px;
 }
 
 .section_contents_description p {
-  text-align: left;
+  text-align: center;
   margin: auto;
-  width: 80%;
+  width: 95%;
 }
 
 .app_logo img {
@@ -290,7 +291,11 @@ a:active { color: #994E62;}
     margin: 20px;
   }
 }
-
+@media screen and (max-width:544px){
+  .text br{
+    display: none;
+  }
+}
 @media screen and (max-width:767px){
   .header_pc, .header_scroll_pc {display: none;}
 }
