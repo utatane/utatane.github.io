@@ -177,7 +177,7 @@ a:active { color: #994E62;}
   font-size: 1.5em;
 }
 
-.movies iframe {
+.movie iframe {
   width: 80vw;
   height: 45vw;
 }
@@ -246,6 +246,10 @@ a:active { color: #994E62;}
     right: 10px;
     bottom: 0;
   }
+  .movie iframe {
+  width: 80vw;
+  height: 45vw;
+}
 }
 
 @media screen and (min-width:544px){
@@ -286,6 +290,10 @@ a:active { color: #994E62;}
     font-size: 48px;
     right: 40px;
   }
+  .movie iframe {
+  width: 48vw;
+  height: 27vw;
+}
 }
 
 @media screen and (min-width:992px){

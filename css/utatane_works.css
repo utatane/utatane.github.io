@@ -163,6 +163,7 @@ h4 {
     position: relative;
   }
   .section_works_top{
+    min-height: 600px;
     height: calc(100vh - 80px);
   }
   #contact iframe {height: calc(100vh - 360px);}

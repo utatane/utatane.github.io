@@ -173,7 +173,7 @@ h2 {font-family: Times, serif;}
 }
 
 /* height */
-@media screen and (min-height:0px){
+@media screen and (min-width:0px){
   section {
     position: relative;
     /*height: 520px;*/
@@ -183,7 +183,9 @@ h2 {font-family: Times, serif;}
   }
   /*works以外のコンテンツはブラウザ幅に収める*/
   .section_usual{
-    height: calc(100vh - 80px);
+    min-height: 400px;
+    height: 100%;
+    /*height: calc(100vh - 80px);*/
   }
   #contact iframe {height: 240px;}
 }
@@ -193,6 +195,9 @@ h2 {font-family: Times, serif;}
     position: relative;
   }
   .section_works_top{
+    height: calc(100vh - 80px);
+  }
+  .section_usual{
     height: calc(100vh - 80px);
   }
   #contact iframe {height: calc(100vh - 360px);}
