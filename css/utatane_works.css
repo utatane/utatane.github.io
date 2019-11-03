@@ -4,7 +4,9 @@ h1 {font-weight: normal;}
 
 h2 {font-family: Times, serif;}
 
-
+h4 {
+  text-align: center;
+}
 .index_nav {
   margin-top: auto;
   margin-left: auto;
@@ -18,42 +20,10 @@ h2 {font-family: Times, serif;}
   background-size: cover;
 }
 
-/*.concept_list {
-  text-align: left;
-  margin: auto;
-}*/
-
 .link_name {font-weight: bold;}
 
-/*
-.link_list {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.link_list table {margin: auto;}
-.link_list td {padding: 10px 10px;}
-*/
-
-/*.link_description {font-size: 0.8em;}*/
-
-/*
-.links_app {
-  border: solid 4px #994E62;
-  background-color: #F3FFF6;
-}
-.links_app img {width: 50vw; padding: 1vw;}
-.links_app a {
-  display: block;
-  width: 100%;
-}
-*/
 
 #top {background-image: url(../pictures/top.jpg);}
-
-/*#about {background-image: url(../pictures/back03.jpg);}*/
-
-
-/*#preface {background-image: url(../pictures/earth.png);}*/
 
 #concept {background-image: url(../pictures/back02.jpg);}
 #news {background-image: url(../pictures/back02.jpg);}
@@ -73,13 +43,13 @@ h2 {font-family: Times, serif;}
   z-index: 3;
 }
 
-.grid img{
-  width: 8em;
-  height: 8em;
+.works_grid img{
+  width: 12em;
+  height: 12em;
   min-width: 200px;
   min-height: 200px;
 }
-.grid{
+.works_grid{
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -178,12 +148,12 @@ h2 {font-family: Times, serif;}
     position: relative;
     /*height: 520px;*/
   }
-  .section_works_top{
+  .section_title{
     height: 100%;
   }
   /*works以外のコンテンツはブラウザ幅に収める*/
-  .section_usual{
-    height: calc(100vh - 80px);
+  .section_photos{
+    height: 100%;
   }
   #contact iframe {height: 240px;}
 }

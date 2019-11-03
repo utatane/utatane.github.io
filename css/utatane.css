@@ -90,6 +90,11 @@ a:active { color: #994E62;}
   background-position: center center;
   background-size: cover;
 }
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: block;
+}
 
 .opacity {background-color: rgba(243, 255, 246, 0.75);}
 
@@ -219,17 +224,6 @@ a:active { color: #994E62;}
   padding: 0 4px;
 }
 
-#applink img {
-  z-index: 1;
-  position: fixed;
-  background-color: #FFFFBE;
-  border: solid 2px #994E62;
-}
-
-.photos4 img {
-  width: 200px;
-  padding: 10px;
-}
 
 /* width */
 /* 544, 768, 992, 1200 */
@@ -241,10 +235,6 @@ a:active { color: #994E62;}
     height: 100px;
   }
   footer {padding-bottom: 50px;}
-  .app_logo img {
-    padding: 5px;
-    height: 50px;
-  }
   .title {font-size: 0.6em;}
   .section_title {padding-top: 5%;}
   .section_contents {
@@ -255,22 +245,6 @@ a:active { color: #994E62;}
     font-size: 24px;
     right: 10px;
     bottom: 0;
-  }
-  #applink img {
-    bottom: 10px;
-    right: 10px;
-  }
-  .movie iframe {
-    width: 80vw;
-    height: 45vw;
-  }
-  .photo1 img {
-    width: 200px;
-    margin: 20px;
-  }
-  .photos4 img {
-    width: 200px;
-    margin: 20px;
   }
 }
 
@@ -285,10 +259,6 @@ a:active { color: #994E62;}
   .next {
     font-size: 36px;
     right: 20px;
-  }
-  .photo1 img {
-    width: 400px;
-    margin: 20px;
   }
 }
 @media screen and (max-width:544px){
@@ -308,10 +278,6 @@ a:active { color: #994E62;}
     width: 170px;
     height: 170px;
   }
-  .app_logo img {
-    padding: 6px;
-    height: 60px;
-  }
   .top img {
     width: 600px;
     margin: 20px;
@@ -320,39 +286,11 @@ a:active { color: #994E62;}
     font-size: 48px;
     right: 40px;
   }
-  #applink img {
-    bottom: 20px;
-    right: 20px;
-  }
-  .movie iframe {
-    width: 48vw;
-    height: 27vw;
-  }
-  .photo1 img {
-    width: 600px;
-    margin: 20px;
-  }
-  .photos4 img {
-    width: 300px;
-    margin: 20px;
-  }
 }
 
 @media screen and (min-width:992px){
   footer {padding-bottom: 20px;}
-  .photo1 img {
-    width: 800px;
-    margin: 20px;
-  }
-  .photos4 img {
-    width: 400px;
-    margin: 20px;
-  }
 }
 
 @media screen and (min-width:1200px){
-  .app_logo img {
-    padding: 8px;
-    height: 80px;
-  }
 }
