@@ -51,7 +51,7 @@ h4 {
 }
 
 #works_share_future img{
-  width: 24.45em;
+  width: 35em;
   height: 18em;
   min-width: 200px;
   min-height: 200px;
@@ -66,6 +66,11 @@ h4 {
 .works_grid_1col{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.event_outline{
+  line-height: 120%;
+  text-align: left;
 }
 
 /* width */
