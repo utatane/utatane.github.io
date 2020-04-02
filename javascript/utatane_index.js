@@ -45,6 +45,7 @@ function header_index_scroll(len, width)
   }
 };
 
+
 function header_index() {
 
     var loc = location.href;
