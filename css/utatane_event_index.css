@@ -1,0 +1,205 @@
+/* utatane_index.css */
+
+h1 {font-weight: normal;}
+
+h2 {font-family: Times, serif;}
+
+
+.index_nav {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+
+.index_section {
+  background-position: center center;
+  background-size: cover;
+}
+
+/*.concept_list {
+  text-align: left;
+  margin: auto;
+}*/
+
+.link_name {font-weight: bold;}
+
+/*
+.link_list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.link_list table {margin: auto;}
+.link_list td {padding: 10px 10px;}
+*/
+
+/*.link_description {font-size: 0.8em;}*/
+
+/*
+.links_app {
+  border: solid 4px #994E62;
+  background-color: #F3FFF6;
+}
+.links_app img {width: 50vw; padding: 1vw;}
+.links_app a {
+  display: block;
+  width: 100%;
+}
+*/
+
+#top {background-image: url(../pictures/20_mayfes.jpg);}
+
+/*#about {background-image: url(../pictures/back03.jpg);}*/
+
+
+/*#preface {background-image: url(../pictures/earth.png);}*/
+
+#concept {background-image: url(../pictures/back02.jpg);}
+#news {background-image: url(../pictures/back02.jpg);}
+/*#theme {background-image: url(../pictures/back02.jpg);}*/
+#works {}
+#contact {
+  background-color: #F3FFF6;
+  background-image: url(../pictures/contact.jpg);
+}
+
+#contact td {height: 1em;}
+
+#header_index_scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.grid img{
+  width: 8em;
+  height: 8em;
+  min-width: 200px;
+  min-height: 200px;
+}
+.grid{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* width */
+/* 544, 768, 992, 1200 */
+
+@media screen and (min-width:0px){
+  h1 {font-size: 2.5em;}
+  .section_title_top {padding-top: 5%;}
+  .section_contents_top {
+    padding-top: 0;
+    padding-bottom: 5%;
+  }
+  .section_subtitle_top {padding-top: 0;}
+  .section_contents_contact_sp {padding-top: 5%;}
+  .section_title_top img {height: 50px;}
+  .section_subtitle_top img {height: 40px;}
+  .top_icon_sp img {
+    width: 120px;
+    height: 120px;
+  }
+  .section_contentss_movie {padding-top: 10%;}
+  .concept_list_sp {
+    text-align: left;
+    width: 300px;
+  }
+  #contact iframe {width: 95%;}
+}
+
+@media screen and (min-width:350px){
+  .section_title_top img {height: 60px;}
+  .section_subtitle_top img {height: 45px;}
+}
+
+@media screen and (max-width:543px){
+
+}
+
+@media screen and (min-width:544px){
+  .section_title_top {padding-top: 5%;}
+  .section_subtitle_top {padding-top: 0;}
+  .section_title_top img {height: 80px;}
+  .section_subtitle_top img {height: 60px;}
+  .concept_list_sp {width: 350px;}
+  .section_contents_contact_sp {padding-top: 0;}
+  #contact iframe {width: 100%;}
+  #menulist_index {display: none;}
+}
+
+@media screen and (max-width:767px){
+  .top_icon {display: none;}
+  .concept_list {display: none;}
+  .section_contents_contact {display: none;}
+}
+
+@media screen and (min-width:768px){
+  .index_nav {word-spacing: 0.5em;}
+  .section_title_top {padding-top: 2%;}
+  .section_title_top img {
+    position: relative;
+    top: 10px;
+  }
+  .section_contents_top {
+    padding-top: 0;
+    padding-bottom: 2%;
+  }
+  .section_subtitle_top {padding-top: 3%;}
+  .section_title_top img {height: 120px;}
+  .section_subtitle_top img {height: 80px;}
+  .top_icon img {
+    width: 160px;
+    height: 160px;
+  }
+  .top_icon_sp {display: none;}
+  .concept_list {width: 680px;}
+  .concept_list_sp {display: none;}
+  .section_contents_contact {padding-top: 5%;}
+  .section_contents_contact_sp {display: none;}
+  #contact iframe {width: 100%;}
+}
+
+@media screen and (min-width:992px){
+  /*h1 {font-size: 3em;}*/
+  .index_nav {word-spacing: 1em;}
+  #contact iframe {width: 80%;}
+}
+
+@media screen and (min-width:1200px){
+  #contact iframe {width: 80%;}
+}
+
+/* height */
+@media screen and (min-width:0px){
+  section {
+    position: relative;
+    /*height: 520px;*/
+  }
+  .section_works_top{
+    height: 110%;
+    min-height: 500px;
+  }
+  /*works以外のコンテンツはブラウザ幅に収める*/
+  .section_usual{
+    min-height: 500px;
+    height: 110%;
+    /*height: calc(100vh - 80px);*/
+  }
+  #contact iframe {height: 240px;}
+}
+
+@media screen and (min-width:1080px){
+  section {
+    position: relative;
+  }
+  .section_works_top{
+    height: calc(100vh - 80px);
+  }
+  .section_usual{
+    height: calc(100vh - 80px);
+  }
+  #contact iframe {height: calc(100vh - 360px);}
+}
