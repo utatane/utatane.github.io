@@ -31,7 +31,7 @@ function header_index_scroll(len, width)
                 header_index_scroll += '<div class="col-xs-3 utatane_logo"><a href=';
                 header_index_scroll += ref;
                 header_index_scroll += '><img src="../pictures/UTaTane_icon_moji.png" alt="UTaTane"></a></div>';
-                header_index_scroll += '<div class="col-xs-9 index_nav"><div><a href="../index.html#top">Top</a> | <a href="../index.html#concept">Concept</a> | <a href="../index.html#theme">Theme</a> | <a href="../index.html#news"> News </a> | <a href="../index.html#works">Works</a> | <a href="../index.html#contact">Contact</a></div></div>';
+                header_index_scroll += '<div class="col-xs-9 index_nav"><div><a href="../index.html"> Top</a> | <a href="./works_list.html#event_list">Event</a> | <a href="./works_list.html#works_list">Works</a> | <a href="./works_list.html#publication">Publication</a> </div></div>';
             header_index_scroll += '</div>';
         header_index_scroll += '</div>';
 
@@ -78,7 +78,7 @@ function header_index() {
                     html += '<div class="col-xs-3 utatane_icon"><a href=';
                     html += ref;
                     html += '><img src="../pictures/UTaTane_icon.png" alt="UTaTane"></a></div>';
-                    html += '<div class="col-xs-9 index_nav"><div><a href="../index.html#top">Top</a> | <a href="../index.html#concept">Concept</a> | <a href="../index.html#theme">Theme</a> | <a href="../index.html#news"> News </a> | <a href="../index.html#works">Works</a> | <a href="../index.html#contact">Contact</a></div></div>';
+                    html += '<div class="col-xs-9 index_nav"><div><a href="../index.html"> Top</a> | <a href="./works_list.html#event_list">Event</a> | <a href="./works_list.html#works_list">Works</a> | <a href="./works_list.html#publication">Publication</a></div></div>';
                 html += '</div>'; // header_pc
 
             html += '</div>';
@@ -96,11 +96,9 @@ function menulist_index_appear()
   menulist_index = '';
   menulist_index += '<table>';
     menulist_index += '<tr><td><a href="../index.html#top" onclick="menulist_index_disappear()">Top</tr></a></td>';
-    menulist_index += '<tr><td><a href="../index.html#concept" onclick="menulist_index_disappear()">Concept</tr></a></td>';
-    menulist_index += '<tr><td><a href="../index.html#theme" onclick="menulist_index_disappear()">Theme</tr></a></td>';
-    menulist_index += '<tr><td><a href="../index.html#news" onclick="menulist_index_disappear()">News</tr></a></td>';
-    menulist_index += '<tr><td><a href="../index.html#works" onclick="menulist_index_disappear()">Works</tr></a></td>';
-    menulist_index += '<tr><td><a href="../index.html#contact" onclick="menulist_index_disappear()">Contact</tr></a></td>';
+    menulist_index += '<tr><td><a href="./works_list.html#event_list" onclick="menulist_index_disappear()">Event</tr></a></td>';
+    menulist_index += '<tr><td><a href="./works_list.html#works_list" onclick="menulist_index_disappear()">Works</tr></a></td>';
+    menulist_index += '<tr><td><a href="./works_list.html#publication" onclick="menulist_index_disappear()">Publication</tr></a></td>';
   menulist_index += '</table>';
 
   document.getElementById("menubutton").innerHTML = '';

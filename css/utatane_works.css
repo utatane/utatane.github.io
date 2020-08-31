@@ -73,6 +73,17 @@ h4 {
   text-align: left;
 }
 
+.publication_list{
+  line-height: 100%;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.publication_list li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /* width */
 /* 544, 768, 992, 1200 */
 
