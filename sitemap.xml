@@ -207,4 +207,11 @@
   <changefreq>weekly</changefreq>
 </url>
 
+<url>
+  <loc>https://utatane.github.io/works/digital_3d_textbook.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-01-03T13:20:32+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+
 </urlset>
