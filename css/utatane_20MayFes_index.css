@@ -212,11 +212,13 @@ h2 {font-family: Times, serif;}
   .top_icon {display: none;}
   .concept_list {display: none;}
   .section_contents_contact {display: none;}
+  .table_pc {display:none;}
 }
 
 @media screen and (min-width:768px){
   .index_nav {word-spacing: 0.5em;}
   .section_title_top {padding-top: 2%;}
+  .table_sp {display:none;}
   .section_title_top img {
     position: relative;
     top: 10px;
