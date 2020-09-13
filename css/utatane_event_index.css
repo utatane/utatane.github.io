@@ -33,6 +33,13 @@ h2 {font-family: Times, serif;}
   left: 0;
 }
 
+.works_grid img{
+  width: 8em;
+  height: 8em;
+  min-width: 50px;
+  min-height: 50px;
+}
+
 .map_icon_ad {
   width: 20%;
   position: absolute;
@@ -62,7 +69,7 @@ h2 {font-family: Times, serif;}
 #concept {background-image: url(../pictures/back02.jpg);}
 #news {background-image: url(../pictures/back02.jpg);}
 /*#theme {background-image: url(../pictures/back02.jpg);}*/
-#works {}
+
 #contact {
   background-color: #F3FFF6;
   background-image: url(../pictures/contact.jpg);

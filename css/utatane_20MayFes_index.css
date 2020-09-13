@@ -5,6 +5,44 @@ h1 {font-weight: normal;}
 h2 {font-family: Times, serif;}
 
 
+.td-css-top{
+  /*border: 2px solid green; */
+  padding-top: 20px;
+  border-right-style:none; 
+  border-left-style:none; 
+  border-bottom-style:none;
+}
+.td-css-left{
+  width: 6em; 
+}
+.td-css-right{
+  width: calc(100vw - 6em);
+}
+.td-css-bottom{
+  /*border: 2px solid green;*/ 
+  padding-bottom: 20px;
+  border-right-style:none; 
+  border-left-style:none; 
+  border-top-style:none;
+  height: 50%;
+}
+
+.contents_list_img{
+  width:6em;
+  height:6em;
+  min-width: 35px;
+  min-height: 35px;
+}
+
+#contents_table {
+  text-align : center;
+  border-collapse: collapse;
+  width : 36em;
+  /*border: solid 2px black;*/
+}
+
+
+
 .index_nav {
   margin-top: auto;
   margin-left: auto;
@@ -49,7 +87,7 @@ h2 {font-family: Times, serif;}
   top: 5%;
   left: 35%;
 }
-.map_icon_religion {
+.map_icon_factory {
   width: 15%;
   position: absolute;
   top: 75%;
@@ -94,12 +132,32 @@ h2 {font-family: Times, serif;}
 }
 
 .grid img{
-  width: 8em;
-  height: 8em;
+  width: 6em;
+  height: 6em;
+  min-width: 50px;
+  min-height: 50px;
+}
+.grid{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.works_grid img{
+  width: 12em;
+  height: 12em;
   min-width: 200px;
   min-height: 200px;
 }
-.grid{
+.header_img img{
+  width:8em;
+  height:8em;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.works_grid{
   padding-top: 10px;
   padding-bottom: 10px;
 }
