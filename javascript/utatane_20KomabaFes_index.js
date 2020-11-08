@@ -31,7 +31,7 @@ function header_index_scroll(len, width)
                 header_index_scroll += '<div class="col-xs-3 utatane_logo"><a href=';
                 header_index_scroll += ref;
                 header_index_scroll += '><img src="../../pictures/UTaTane_icon_moji.png" alt="UTaTane"></a></div>';
-                header_index_scroll += '<div class="col-xs-9 index_nav"><div><a href="#top">トップ</a> | <a href="#concept">企画コンセプト</a> | <a href="#contents">展示</a> | <a href="#participation"> 参加方法</a> | <a href="#contact">問い合わせ</a></div></div>';
+                header_index_scroll += '<div class="col-xs-9 index_nav"><div><a href="#top">トップ</a> | <a href="#concept">企画コンセプト</a> | <a href="#participation"> 参加方法</a> | <a href="#contact">問い合わせ</a></div></div>';
             header_index_scroll += '</div>';
         header_index_scroll += '</div>';
 
@@ -78,7 +78,7 @@ function header_index() {
                   html += '<div class="col-xs-3 utatane_icon"><a href=';
                   html += ref;
                   html += '><img src="../../pictures/UTaTane_icon.png" alt="UTaTane"></a></div>';
-                  html += '<div class="col-xs-9 index_nav"><div><a href="#top">トップ</a> | <a href="#concept">企画コンセプト</a> | <a href="#contents">展示</a> | <a href="#participation"> 参加方法</a> | <a href="#contact">問い合わせ</a></div></div>';
+                  html += '<div class="col-xs-9 index_nav"><div><a href="#top">トップ</a> | <a href="#concept">企画コンセプト</a> |<a href="#participation"> 参加方法</a> | <a href="#contact">問い合わせ</a></div></div>';
               html += '</div>'; // header_pc
 
           html += '</div>';
@@ -96,7 +96,7 @@ function menulist_index_appear()
   menulist_index += '<table>';
     menulist_index += '<tr><td><a href="#top" onclick="menulist_index_disappear()">トップ</tr></a></td>';
     menulist_index += '<tr><td><a href="#concept" onclick="menulist_index_disappear()">企画コンセプト</tr></a></td>';
-    menulist_index += '<tr><td><a href="#contents" onclick="menulist_index_disappear()">展示</tr></a></td>';
+    //menulist_index += '<tr><td><a href="#contents" onclick="menulist_index_disappear()">展示</tr></a></td>';
     menulist_index += '<tr><td><a href="#contents" onclick="menulist_index_disappear()">参加方法</tr></a></td>';
     menulist_index += '<tr><td><a href="#contact" onclick="menulist_index_disappear()">問い合わせ</tr></a></td>';
   menulist_index += '</table>';
