@@ -9,6 +9,11 @@ h2 {font-family: Times, serif;}
   overflow: scroll;
 }
 
+.youtube_chat{
+  height: 15em;
+  overflow: auto;
+}
+
 #youtube_schedule_table th{
   background: #F6C143;
 }
