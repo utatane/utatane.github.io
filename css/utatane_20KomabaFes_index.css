@@ -262,10 +262,9 @@ h2 {font-family: Times, serif;}
 @media (min-width:768px){
   .table_sp {display:none;}
   .youtube_chat{
-    height: 20em;
     overflow: auto;
   }
-  
+
   .youtube_top{
     position: relative;
     width: 100%;
