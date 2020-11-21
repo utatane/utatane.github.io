@@ -23,7 +23,19 @@ h2 {font-family: Times, serif;}
   margin: auto;
 }*/
 
-.link_name {font-weight: bold;}
+.link_name {
+  font-weight: bold;
+}
+/*
+.link_name a:visited{color: #9932cc !important;}
+.link_name a:link{color: #9932cc !important;}
+
+.link_name a:hover {
+  color: #994E62 !important;
+  text-decoration: none !important;
+}
+.link_name a:active { color: #994E62 !important;}
+*/
 
 /*
 .link_list {

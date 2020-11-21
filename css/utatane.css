@@ -68,8 +68,10 @@ aside {
 
 footer p {clear: both;}
 
-a:link { color: #3149e1;}
-a:visited { color: #3149e1;}
+/*a:link { color: #3149e1;}
+a:visited { color: #9932cc;}*/
+a:link { color: #483d8b;}
+a:visited { color: #483d8b;}
 a:hover {
   color: #994E62;
   text-decoration: none;
