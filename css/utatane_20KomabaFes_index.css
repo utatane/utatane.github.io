@@ -1,5 +1,9 @@
 /* utatane_index.css */
 
+.google-form iframe{
+  width:100%;
+}
+
 .link_name {
   font-weight: bold;
 }
