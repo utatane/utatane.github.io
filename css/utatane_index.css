@@ -192,7 +192,7 @@ h2 {font-family: Times, serif;}
   }
   .section_works_top{
     height: 110%;
-    min-height: 500px;
+    min-height: 600px;
   }
   /*works以外のコンテンツはブラウザ幅に収める*/
   .section_usual{
@@ -208,7 +208,8 @@ h2 {font-family: Times, serif;}
     position: relative;
   }
   .section_works_top{
-    height: calc(100vh - 80px);
+    height: 110%;
+    min-height: 600px;
   }
   .section_usual{
     height: calc(100vh - 80px);

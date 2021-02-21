@@ -98,7 +98,7 @@ a:active { color: #994E62;}
   display: block;
 }
 
-.opacity {background-color: rgba(243, 255, 246, 0.75);}
+.opacity {background-color: rgba(243, 255, 246, 0.825);}
 
 .top {
   background: url(../pictures/stripe_top.png);
