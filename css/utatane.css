@@ -144,12 +144,6 @@ a:active { color: #994E62;}
   height: 45px;
 }
 
-.section_contents_description p {
-  text-align: center;
-  margin: auto;
-  width: 95%;
-}
-
 .app_logo img {
   background-color: #F3FFF6;
 }
@@ -274,6 +268,11 @@ a:active { color: #994E62;}
 }
 @media screen and (max-width:767px){
   .header_pc, .header_scroll_pc {display: none;}
+  .section_contents_description p {
+    text-align: center;
+    margin: auto;
+    width: 95%;
+  }
 }
 
 @media screen and (min-width:768px){
@@ -295,6 +294,11 @@ a:active { color: #994E62;}
   .movie iframe {
   width: 48vw;
   height: 27vw;
+}
+.section_contents_description p {
+  text-align: center;
+  margin: auto;
+  width: 100%;
 }
 }
 
