@@ -273,11 +273,37 @@ a:active { color: #994E62;}
     margin: auto;
     width: 95%;
   }
+
+  .youtube_index_top{
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+
+  .youtube_index_top iframe{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (min-width:768px){
   body{font-size: 16pt;}
   footer {padding-bottom: 70px;}
+  .youtube_index_top{
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  .youtube_index_top iframe{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 80%;
+    height: 80%;
+  }
   .header_sp, .break_sp, #menubutton, #closebutton, #menulist {display: none;}
   .utatane_icon img {
     width: 170px;
