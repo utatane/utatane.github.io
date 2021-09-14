@@ -31,8 +31,8 @@ function header_index_scroll(len, width)
                 header_index_scroll += '<div class="col-xs-3 utatane_logo"><a href=';
                 header_index_scroll += ref;
                 header_index_scroll += '><img src="../../pictures/UTaTane_icon_moji.png" alt="UTaTane"></a></div>';
-                header_index_scroll += '<div class="col-xs-12 index_nav"><div><a href="./index.html">トップへ戻る</a> | <a href="./colorful_patchwork.html">色のパッチワーク</a> | <a href="./discussion.html">展示秘話・議論</a> |'
-                header_index_scroll += ' <a href="./fake_product_catalog.html"> 架空商品カタログ </a> | <a href="./drawing_song_miscommunication.html"> すれ違い絵かき歌 </a> | <a href="./distorted_heading.html"> ねじ曲げ見出し </a>| <a href="./onomatopeia_character.html">オノマトペキャラ図鑑</a> | <a href="./onomatopeia_dialog.html">オノマトペダイアログ</a> |</div></div>';
+                header_index_scroll += '<div class="col-xs-12 index_nav"><div><a href="./index.html">トップへ戻る</a> | <a href="./discussion.html">展示秘話・議論</a> | <a href="./distorted_heading.html">ねじまげ見出し</a> |'
+                header_index_scroll += ' <a href="./drawing_song_miscommunication.html"> すれ違いえかき </a> | <a href="./onomatopeia_emoticon.html"> オノマトペ顔文字図鑑 </a> | <a href="./polyphonic_scape.html"> ポリフォニックスケープ </a>| <a href="./unit.html">数の表現事典</a> | <a href="./workshop.html">ワークショップ</a> |</div></div>';
             header_index_scroll += '</div>';
         header_index_scroll += '</div>';
 
@@ -79,9 +79,8 @@ function header_index() {
                   html += '<div class="col-xs-3 utatane_icon"><a href=';
                   html += ref;
                   html += '><img src="../../pictures/UTaTane_icon.png" alt="UTaTane"></a></div>';
-                  html += '<div class="col-xs-12 index_nav"><div><a href="./index.html">トップへ戻る</a> | <a href="./colorful_patchwork.html">色のパッチワーク</a> | <a href="./discussion.html">展示秘話・議論</a> |';
-                  html += ' <a href="./fake_product_catalog.html"> 架空商品カタログ </a> | <a href="./drawing_song_miscommunication.html"> すれ違い絵かき歌 </a> | <a href="./distorted_heading.html"> ねじ曲げ見出し </a>| <a href="./onomatopeia_character.html">オノマトペキャラ図鑑</a> | <a href="./onomatopeia_dialog.html">オノマトペダイアログ</a> |</div></div>';
-
+                  html += '<div class="col-xs-12 index_nav"><div><a href="./index.html">トップへ戻る</a> | <a href="./discussion.html">展示秘話・議論</a> | <a href="./distorted_heading.html">ねじまげ見出し</a> |'
+                  html += ' <a href="./drawing_song_miscommunication.html"> すれ違いえかき </a> | <a href="./onomatopeia_emoticon.html"> オノマトペ顔文字図鑑 </a> | <a href="./polyphonic_scape.html"> ポリフォニックスケープ </a>| <a href="./unit.html">数の表現事典</a> | <a href="./workshop.html">ワークショップ</a> |</div></div>';
           html += '</div>';
       html += '</div>';
   html += '</header>';
@@ -96,13 +95,13 @@ function menulist_index_appear()
   menulist_index = '';
   menulist_index += '<table>';
     menulist_index += '<tr><td><a href="./index.html" onclick="menulist_index_disappear()">トップへ戻る</tr></a></td>';
-    menulist_index += '<tr><td><a href="./colorful_patchwork.html" onclick="menulist_index_disappear()">色のパッチワーク</tr></a></td>';
-    menulist_index += '<tr><td><a href="./discussion" onclick="menulist_index_disappear()">議論</tr></a></td>';
-    menulist_index += '<tr><td><a href="./fake_product_catalog.html" onclick="menulist_index_disappear()">架空商品カタログ</tr></a></td>';
-    menulist_index += '<tr><td><a href="./drawing_song_miscommunication.html" onclick="menulist_index_disappear()">すれ違い絵かき歌</tr></a></td>';
-    menulist_index += '<tr><td><a href="./distorted_heading.html" onclick="menulist_index_disappear()">ねじ曲げ見出し</tr></a></td>';
-    menulist_index += '<tr><td><a href="./onomatopeia_character.html" onclick="menulist_index_disappear()">オノマトペキャラ図鑑</tr></a></td>';
-    menulist_index += '<tr><td><a href="./onomatopeia_dialog.html" onclick="menulist_index_disappear()">オノマトペダイアログ</tr></a></td>';
+    menulist_index += '<tr><td><a href="./discussion.html" onclick="menulist_index_disappear()">展示秘話・議論</tr></a></td>';
+    menulist_index += '<tr><td><a href="./distorted_heading.html" onclick="menulist_index_disappear()">ねじまげ見出し</tr></a></td>';
+    menulist_index += '<tr><td><a href="./drawing_song_miscommunication.html" onclick="menulist_index_disappear()">すれ違いえかき</tr></a></td>';
+    menulist_index += '<tr><td><a href="./onomatopeia_emoticon.html" onclick="menulist_index_disappear()">オノマトペ顔文字図鑑</tr></a></td>';
+    menulist_index += '<tr><td><a href="./polyphonic_scape.html" onclick="menulist_index_disappear()">ポリフォニック・スケープ</tr></a></td>';
+    menulist_index += '<tr><td><a href="./unit.html" onclick="menulist_index_disappear()">数の表現事典</tr></a></td>';
+    menulist_index += '<tr><td><a href="./workshop.html" onclick="menulist_index_disappear()">ワークショップ</tr></a></td>';
   menulist_index += '</table>';
 
   document.getElementById("menubutton").innerHTML = '';
