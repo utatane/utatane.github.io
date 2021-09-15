@@ -272,6 +272,7 @@ h2 {font-family: Times, serif;}
   .youtube_schedule{
     height: 20em;
     overflow: auto;
+    width:20%;
   }
 
   .youtube{
