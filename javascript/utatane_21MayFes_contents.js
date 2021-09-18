@@ -32,7 +32,7 @@ function header_index_scroll(len, width)
                 header_index_scroll += ref;
                 header_index_scroll += '><img src="../../pictures/UTaTane_icon_moji.png" alt="UTaTane"></a></div>';
                 header_index_scroll += '<div class="col-xs-12 index_nav"><div><a href="./index.html">トップへ戻る</a> | <a href="./discussion.html">展示秘話・議論</a> | <a href="./distorted_heading.html">ねじまげ見出し</a> |'
-                header_index_scroll += ' <a href="./drawing_song_miscommunication.html"> すれ違いえかき </a> | <a href="./onomatopeia_emoticon.html"> オノマトペ顔文字図鑑 </a> | <a href="./polyphonic_scape.html"> ポリフォニックスケープ </a>| <a href="./unit.html">数の表現事典</a> | <a href="./workshop.html">ワークショップ</a> |</div></div>';
+                header_index_scroll += ' <a href="./drawing_song_miscommunication.html"> すれ違いえかき </a> | <a href="./onomatopeia_emoticon.html"> オノマトペカタログ </a> | <a href="./polyphonic_scape.html"> ポリフォニックスケープ </a>| <a href="./unit.html">数の表現事典</a> | <a href="./workshop.html">ワークショップ</a> |</div></div>';
             header_index_scroll += '</div>';
         header_index_scroll += '</div>';
 
@@ -80,7 +80,7 @@ function header_index() {
                   html += ref;
                   html += '><img src="../../pictures/UTaTane_icon.png" alt="UTaTane"></a></div>';
                   html += '<div class="col-xs-12 index_nav"><div><a href="./index.html">トップへ戻る</a> | <a href="./discussion.html">展示秘話・議論</a> | <a href="./distorted_heading.html">ねじまげ見出し</a> |'
-                  html += ' <a href="./drawing_song_miscommunication.html"> すれ違いえかき </a> | <a href="./onomatopeia_emoticon.html"> オノマトペ顔文字図鑑 </a> | <a href="./polyphonic_scape.html"> ポリフォニックスケープ </a>| <a href="./unit.html">数の表現事典</a> | <a href="./workshop.html">ワークショップ</a> |</div></div>';
+                  html += ' <a href="./drawing_song_miscommunication.html"> すれ違いえかき </a> | <a href="./onomatopeia_emoticon.html"> オノマトペカタログ </a> | <a href="./polyphonic_scape.html"> ポリフォニックスケープ </a>| <a href="./unit.html">数の表現事典</a> | <a href="./workshop.html">ワークショップ</a> |</div></div>';
           html += '</div>';
       html += '</div>';
   html += '</header>';
@@ -98,7 +98,7 @@ function menulist_index_appear()
     menulist_index += '<tr><td><a href="./discussion.html" onclick="menulist_index_disappear()">展示秘話・議論</tr></a></td>';
     menulist_index += '<tr><td><a href="./distorted_heading.html" onclick="menulist_index_disappear()">ねじまげ見出し</tr></a></td>';
     menulist_index += '<tr><td><a href="./drawing_song_miscommunication.html" onclick="menulist_index_disappear()">すれ違いえかき</tr></a></td>';
-    menulist_index += '<tr><td><a href="./onomatopeia_emoticon.html" onclick="menulist_index_disappear()">オノマトペ顔文字図鑑</tr></a></td>';
+    menulist_index += '<tr><td><a href="./onomatopeia_emoticon.html" onclick="menulist_index_disappear()">オノマトペカタログ</tr></a></td>';
     menulist_index += '<tr><td><a href="./polyphonic_scape.html" onclick="menulist_index_disappear()">ポリフォニック・スケープ</tr></a></td>';
     menulist_index += '<tr><td><a href="./unit.html" onclick="menulist_index_disappear()">数の表現事典</tr></a></td>';
     menulist_index += '<tr><td><a href="./workshop.html" onclick="menulist_index_disappear()">ワークショップ</tr></a></td>';
