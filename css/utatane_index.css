@@ -5,6 +5,13 @@ h1 {font-weight: normal;}
 h2 {font-family: Times, serif;}
 
 
+#newcomers-concept{
+  border: double 5px #008000;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
 .index_nav {
   margin-top: auto;
   margin-left: auto;
@@ -100,6 +107,9 @@ h2 {font-family: Times, serif;}
 /* 544, 768, 992, 1200 */
 
 @media screen and (min-width:0px){
+  .newcomer-slider{
+    width: 300px;
+  }
   h1 {font-size: 2.5em;}
   .section_title_top {padding-top: 5%;}
   .section_contents_top {
@@ -132,6 +142,9 @@ h2 {font-family: Times, serif;}
 }
 
 @media screen and (min-width:544px){
+  .newcomer-slider{
+    width: 500px;
+  }
   .section_title_top {padding-top: 5%;}
   .section_subtitle_top {padding-top: 0;}
   .section_title_top img {height: 80px;}
@@ -149,6 +162,9 @@ h2 {font-family: Times, serif;}
 }
 
 @media screen and (min-width:768px){
+  .newcomer-slider{
+    width: 700px;
+  }
   .index_nav {word-spacing: 0.5em;}
   .section_title_top {padding-top: 2%;}
   .section_title_top img {
