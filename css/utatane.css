@@ -25,7 +25,7 @@ section {
 
 a {text-decoration: none;}
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   text-align: center;
   font-weight: bold;
 }
@@ -268,7 +268,7 @@ a:active { color: #994E62;}
 }
 @media screen and (max-width:767px){
   .header_pc, .header_scroll_pc {display: none;}
-  .section_contents_description p {
+  .section_contents_description p, h4 {
     text-align: center;
     margin: auto;
     width: 95%;
@@ -321,7 +321,7 @@ a:active { color: #994E62;}
   width: 48vw;
   height: 27vw;
 }
-.section_contents_description p {
+.section_contents_description p, h4 {
   text-align: center;
   margin: auto;
   width: 100%;
