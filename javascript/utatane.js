@@ -68,7 +68,7 @@ function footer() {
                 html += '<div class="row">';
                     html += '<div class="col-xs-6"><a target="_blank" href="https://twitter.com/UTaTane_MayFes"><i class="fab fa-twitter"></i></a></div>';
                     html += '<div class="col-xs-6"><a target="_blank" href="https://www.facebook.com/UTaTan%C3%A9-941362419351686/"><i class="fab fa-facebook"></i></a></div>';
-                    html += '<div class="col-xs-6"><a target="_blank" href="https://www.instagram.com/utatane_2018/"><i class="fab fa-instagram"></i></a></div>';
+                    html += '<div class="col-xs-6"><a target="_blank" href="https://www.instagram.com/utatane_info/"><i class="fab fa-instagram"></i></a></div>';
                 html += '</div>';
             html += '</div>';
             html += '<p><small>Copyright &copy; 2019 UTaTan&eacute;. All rights reserved.</small></p>';
