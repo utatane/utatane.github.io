@@ -63,7 +63,7 @@ function footer() {
 
     html += '<footer>';
         html += '<div align="center">';
-            html += '<p>E-mail: utatane.mayfes2018[at]gmail.com</p>';
+            html += '<p>E-mail: contact[at]utatane.info</p>';
             html += '<div class="container" id="snslinks">';
                 html += '<div class="row">';
                     html += '<div class="col-xs-6"><a target="_blank" href="https://twitter.com/UTaTane_MayFes"><i class="fab fa-twitter"></i></a></div>';
