@@ -381,7 +381,7 @@ a:active { color: #994E62;}
 
 /* --- ★レスポンシブ対応（スマホ対応）★ --- */
 @media (max-width: 768px) {
-  .container__icon_with_title_and_question_wrapper {
+  .container_icon_with_title_and_question_wrapper {
       flex-direction: column; /* 1列表示に変更 */
       align-items: center; /* 中央揃え */
   }
@@ -395,5 +395,9 @@ a:active { color: #994E62;}
       width: 80px; /* 画像サイズを少し小さく */
       height: 80px;
       margin-right: 10px;
+  }
+
+  .workstitle_and_question{
+      font-size: 70%;
   }
 }
