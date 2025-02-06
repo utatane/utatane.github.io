@@ -335,3 +335,65 @@ a:active { color: #994E62;}
 @media screen and (min-width:1200px){
 }
 
+/* 以下、2025年2月6日追加のイベントリストで、アイコン、展示名、問いを一覧化するためのもの。*/
+.container_icon_with_title_and_question {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 520px; /* 最大幅を設定して中央に収まりやすく */
+
+}
+.container_icon_with_title_and_question_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;  /* 2つの要素の間に余白を作る */
+  margin-bottom: 20px;
+  justify-content: center; /* 通常は中央寄せ */
+  flex-wrap: wrap; /* 幅が狭いときに折り返し */
+}
+
+
+
+.icon_in_list {
+  width: 110px;  /* 正方形のサイズ */
+  height: 110px;
+  object-fit: cover; /* 画像を正方形にフィット */
+  margin-right: 20px;
+}
+
+.workstitle_and_question {
+  display: flex;
+  flex-direction: column;
+}
+
+.works_title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.question {
+  font-size: 15px;
+  color: gray;
+  margin: 5px 0 0;
+    line-height: 1.3; /* 行間を狭くする */
+}
+
+/* --- ★レスポンシブ対応（スマホ対応）★ --- */
+@media (max-width: 768px) {
+  .container__icon_with_title_and_question_wrapper {
+      flex-direction: column; /* 1列表示に変更 */
+      align-items: center; /* 中央揃え */
+  }
+
+  .container_icon_with_title_and_question {
+      width: 90%; /* 幅を90%にして画面いっぱいに広げる */
+      max-width: 300px; /* 画面が大きくても最大300pxに */
+  }
+
+  .icon_in_list {
+      width: 80px; /* 画像サイズを少し小さく */
+      height: 80px;
+      margin-right: 10px;
+  }
+}
