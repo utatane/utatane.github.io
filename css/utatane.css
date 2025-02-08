@@ -402,27 +402,40 @@ a:active { color: #994E62;}
 }
 
 /* --- ★レスポンシブ対応（スマホ対応）★ --- */
+    @media (max-width: 768px) {
+      .container_icon_with_title_and_question_wrapper {
+          flex-direction: column; /* 1列表示に変更 */
+          align-items: center; /* 中央揃え */
+      }
+
+      .container_icon_with_title_and_question {
+          width: 90%; /* 幅を90%にして画面いっぱいに広げる */
+          max-width: 300px; /* 画面が大きくても最大300pxに */
+      }
+
+      .icon_in_list {
+          width: 80px; /* 画像サイズを少し小さく */
+          height: 80px;
+          margin-right: 10px;
+      }
+
+      .works_title{
+        font-size: 16px;
+      }
+      .question{
+        font-size: 12px;
+      }
+    }
+
+/* 改行位置が不自然にならないための設定　
+ 適宜、brにclass="mbile-hide"を追加すると良い。*/
+ .mobile-hide {
+  display: inline;
+}
+
+/* 画面幅768px以下（スマホ）では `<br>` を非表示 */
 @media (max-width: 768px) {
-  .container_icon_with_title_and_question_wrapper {
-      flex-direction: column; /* 1列表示に変更 */
-      align-items: center; /* 中央揃え */
-  }
-
-  .container_icon_with_title_and_question {
-      width: 90%; /* 幅を90%にして画面いっぱいに広げる */
-      max-width: 300px; /* 画面が大きくても最大300pxに */
-  }
-
-  .icon_in_list {
-      width: 80px; /* 画像サイズを少し小さく */
-      height: 80px;
-      margin-right: 10px;
-  }
-
-  .works_title{
-    font-size: 16px;
-  }
-  .question{
-    font-size: 12px;
+  .mobile-hide {
+    display: none;
   }
 }
