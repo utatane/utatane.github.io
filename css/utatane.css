@@ -419,7 +419,10 @@ a:active { color: #994E62;}
       margin-right: 10px;
   }
 
-  .workstitle_and_question{
-      font-size: 70%;
+  .works_title{
+    font-size: 16px;
+  }
+  .question{
+    font-size: 12px;
   }
 }
