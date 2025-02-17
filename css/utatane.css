@@ -454,3 +454,18 @@ a:active { color: #994E62;}
     max-width: 100%; /* スマホでは幅を100%に */
   }
 }
+
+/* スマホでも中央揃え・余白ありにする設定　*/
+.responsive-text-center {
+  text-align: center;
+  margin: 0 auto; /* PCで中央揃え */
+}
+
+/* スマホ（768px以下）では左揃え＋余白を追加 */
+@media (max-width: 768px) {
+  .responsive-text-center {
+    text-align: center; /* 左揃え */
+    padding: 0 20px; /* 左右に20pxの余白を追加 */
+    max-width: 100%; /* スマホでは幅を100%に */
+  }
+}
