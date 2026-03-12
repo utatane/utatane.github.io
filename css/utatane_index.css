@@ -75,9 +75,9 @@ h2 {font-family: Times, serif;}
 /*#preface {background-image: url(../pictures/earth.png);}*/
 
 #concept {background-image: url(../pictures/back02.jpg);}
-#news {background-image: url(../pictures/back02.jpg);}
+#news {background-image: url(../pictures/top.jpg);}
 /*#theme {background-image: url(../pictures/back02.jpg);}*/
-#works {}
+#works {background-image: url(../pictures/back02.jpg);}
 #contact {
   background-color: #F3FFF6;
   background-image: url(../pictures/contact.jpg);
